@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login com Facebook</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+        .login-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #1877f2; /* Azul do Facebook */
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .login-btn:hover {
+            background-color: #145dbf;
+        }
+    </style>
+</head>
+<body>
+    <button class="login-btn" onclick="window.location.href='/login'">
+        Entrar com Facebook
+    </button>
+</body>
+</html>
